@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="script.stop"
+       name="Stop on Pause"
+       version="0.0.2"
+       provider-name="amet">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+  </requires>
+ <extension point="xbmc.service" library="default.py" start="startup">
+    </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Stop on Pause</summary>
+    <description lang="en"></description>
+    <platform>all</platform>
+  </extension>
+</addon>

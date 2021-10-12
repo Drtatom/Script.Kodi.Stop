@@ -1,0 +1,3 @@
+<settings>
+    <setting label="Delay" type="slider" id="delay" default="2" range="1,1,20" option="int" />
+</settings>
